@@ -33,20 +33,27 @@ p {
 .body-left p:first-child {
 	margin-top: 0;
 }
+.body-right {
+	display: block;
+}
 .body-left,
 .body-right {
-	padding: 20px;
+	padding: 15px;
 }
 input {
 	border: none;
 	border-bottom: 1px solid grey;
 	width: 100%;
 	font-family: "Lucida Sans";
+	font-size: 14px;
+	line-height: 24px;
 }
 .postcard-footer {
 	text-align: center;
+	margin-top: 0;
 }
 button {
-	background-color: rgb(124, 124, 124);
-	padding: 10px;
+	background-color: rgb(192, 192, 192);
+	padding: 5px;
+	border: none;
 }
